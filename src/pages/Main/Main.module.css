@@ -1,0 +1,16 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.Body{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
