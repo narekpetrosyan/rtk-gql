@@ -20,11 +20,11 @@ export const SingleItem = () => {
   return (
     <div>
       <ul>
-        <li>Name: {singleRickMorty.name}</li>
-        <li>Species: {singleRickMorty.species}</li>
-        <li>Status: {singleRickMorty.status}</li>
+        <li>Name: {singleRickMorty?.name}</li>
+        <li>Species: {singleRickMorty?.species}</li>
+        <li>Status: {singleRickMorty?.status}</li>
         <li>
-          <img src={singleRickMorty.image} alt={singleRickMorty.name} />
+          <img src={singleRickMorty?.image} alt={singleRickMorty?.name} />
         </li>
       </ul>
     </div>
